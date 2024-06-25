@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@heroicons/react':
         specifier: ^2.1.3
-        version: 2.1.3(react@19.0.0-rc.0)
+        version: 2.1.3(react@19.0.0-rc-6230622a1a-20240610)
       '@tailwindcss/forms':
         specifier: ^0.5.7
         version: 0.5.7(tailwindcss@3.3.3)
@@ -31,28 +31,31 @@ importers:
         version: 2.1.1
       next:
         specifier: 15.0.0-canary.28
-        version: 15.0.0-canary.28(@babel/core@7.24.6)(react-dom@19.0.0-rc.0(react@19.0.0-rc.0))(react@19.0.0-rc.0)
+        version: 15.0.0-canary.28(@babel/core@7.24.6)(react-dom@19.0.0-rc-6230622a1a-20240610(react@19.0.0-rc-6230622a1a-20240610))(react@19.0.0-rc-6230622a1a-20240610)
       postcss:
         specifier: 8.4.31
         version: 8.4.31
       react:
-        specifier: 19.0.0-rc.0
-        version: 19.0.0-rc.0
+        specifier: 19.0.0-rc-6230622a1a-20240610
+        version: 19.0.0-rc-6230622a1a-20240610
       react-dom:
-        specifier: 19.0.0-rc.0
-        version: 19.0.0-rc.0(react@19.0.0-rc.0)
+        specifier: 19.0.0-rc-6230622a1a-20240610
+        version: 19.0.0-rc-6230622a1a-20240610(react@19.0.0-rc-6230622a1a-20240610)
       tailwindcss:
         specifier: 3.3.3
         version: 3.3.3
       typescript:
         specifier: 5.2.2
         version: 5.2.2
+      use-debounce:
+        specifier: ^10.0.1
+        version: 10.0.1(react@19.0.0-rc-6230622a1a-20240610)
       zod:
-        specifier: ^3.23.8
+        specifier: ^3.22.2
         version: 3.23.8
     devDependencies:
       '@types/bcrypt':
-        specifier: ^5.0.2
+        specifier: ^5.0.1
         version: 5.0.2
       '@types/react':
         specifier: 18.2.21
@@ -61,13 +64,13 @@ importers:
         specifier: 18.2.14
         version: 18.2.14
       '@vercel/style-guide':
-        specifier: ^5.2.0
+        specifier: ^5.0.1
         version: 5.2.0(eslint@8.57.0)(prettier@3.3.0)(typescript@5.2.2)
       dotenv:
-        specifier: ^16.4.5
+        specifier: ^16.3.1
         version: 16.4.5
       eslint:
-        specifier: ^8.57.0
+        specifier: ^8.52.0
         version: 8.57.0
       eslint-config-next:
         specifier: 15.0.0-rc.0
@@ -76,7 +79,7 @@ importers:
         specifier: 9.0.0
         version: 9.0.0(eslint@8.57.0)
       prettier:
-        specifier: ^3.3.0
+        specifier: ^3.0.3
         version: 3.3.0
       prettier-plugin-tailwindcss:
         specifier: 0.5.4
@@ -1328,8 +1331,8 @@ packages:
     engines: {node: '>=16 || 14 >=14.17'}
     hasBin: true
 
-  glob@10.4.2:
-    resolution: {integrity: sha512-GwMlUF6PkPo3Gk21UxkCohOv0PLcIXVtKyLlpEI28R/cO/4eNOdmLk3CMW1wROV/WR/EsZOWAfBbBOqYvs88/w==}
+  glob@10.4.1:
+    resolution: {integrity: sha512-2jelhlq3E4ho74ZyVLN03oKdAZVUa6UDZzFLVH1H7dnoax+y9qyaq8zBkfDIggjniU19z0wU18y16jMB2eyVIw==}
     engines: {node: '>=16 || 14 >=14.18'}
     hasBin: true
 
@@ -1873,9 +1876,6 @@ packages:
     resolution: {integrity: sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==}
     engines: {node: '>=6'}
 
-  package-json-from-dist@1.0.0:
-    resolution: {integrity: sha512-dATvCeZN/8wQsGywez1mzHtTlP22H8OEfPrVMLNr4/eGa+ijtLn/6M5f0dY8UKNrC2O9UCU6SSoG3qRKnt7STw==}
-
   parent-module@1.0.1:
     resolution: {integrity: sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==}
     engines: {node: '>=6'}
@@ -2077,16 +2077,16 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  react-dom@19.0.0-rc.0:
-    resolution: {integrity: sha512-MhgN2RMYFUkZekkFbsXg9ycwEGaMBzATpTNvGGvWNA9BZZEkdzIL4pv7iDuZKn48YoGARk8ydu4S+Ehd8Yrc4g==}
+  react-dom@19.0.0-rc-6230622a1a-20240610:
+    resolution: {integrity: sha512-56G4Pum5E7FeGL1rwHX5IxidSJxQnXP4yORRo0pVeOJuu5DQJvNKpUwmJoftMP/ez0AiglYTY77L2Gs8iyt1Hg==}
     peerDependencies:
-      react: 19.0.0-rc.0
+      react: 19.0.0-rc-6230622a1a-20240610
 
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  react@19.0.0-rc.0:
-    resolution: {integrity: sha512-8nrDCl5uE54FHeKqKrEO0TS+10bT4cxutJGb2okiJc0FHMQ6I3FeItaqly/1nbijlhSO3HmAVyPIexIQQWYAtQ==}
+  react@19.0.0-rc-6230622a1a-20240610:
+    resolution: {integrity: sha512-SMgWGY//7nO7F3HMuBfmC15Cr4vTe2tlpSCATfnz/wymSftDOKUqc+0smjRhcUeCFCc1zhOAWJ+N//U5CrmOzQ==}
     engines: {node: '>=0.10.0'}
 
   read-cache@1.0.0:
@@ -2168,8 +2168,8 @@ packages:
     resolution: {integrity: sha512-CdASjNJPvRa7roO6Ra/gLYBTzYzzPyyBXxIMdGW3USQLyjWEls2RgW5UBTXaQVp+OrpeCK3bLem8smtmheoRuw==}
     engines: {node: '>= 0.4'}
 
-  scheduler@0.25.0-rc.0:
-    resolution: {integrity: sha512-B3aSqMfoRkucM94MztZD1CyNyf68W9A3dL/TT453G6uNcxMBqGQ+rhFKyxNnWH/mfRHlGBr0tF0F472JCETH4g==}
+  scheduler@0.25.0-rc-6230622a1a-20240610:
+    resolution: {integrity: sha512-GTIQdJXthps5mgkIFo7yAq03M0QQYTfN8z+GrnMC/SCKFSuyFP5tk2BMaaWUsVy4u4r+dTLdiXH8JEivVls0Bw==}
 
   semver@5.7.2:
     resolution: {integrity: sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==}
@@ -2443,6 +2443,12 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
+  use-debounce@10.0.1:
+    resolution: {integrity: sha512-0uUXjOfm44e6z4LZ/woZvkM8FwV1wiuoB6xnrrOmeAEjRDDzTLQNRFtYHvqUsJdrz1X37j0rVGIVp144GLHGKg==}
+    engines: {node: '>= 16.0.0'}
+    peerDependencies:
+      react: '>=16.8.0'
+
   utf-8-validate@6.0.3:
     resolution: {integrity: sha512-uIuGf9TWQ/y+0Lp+KGZCMuJWc3N9BHA+l/UmHd/oUHwJJDeysyTRxNQVkbzsIWfGFbRe3OcgML/i0mvVRPOyDA==}
     engines: {node: '>=6.14.2'}
@@ -2703,9 +2709,9 @@ snapshots:
 
   '@eslint/js@8.57.0': {}
 
-  '@heroicons/react@2.1.3(react@19.0.0-rc.0)':
+  '@heroicons/react@2.1.3(react@19.0.0-rc-6230622a1a-20240610)':
     dependencies:
-      react: 19.0.0-rc.0
+      react: 19.0.0-rc-6230622a1a-20240610
 
   '@humanwhocodes/config-array@0.11.14':
     dependencies:
@@ -4087,13 +4093,12 @@ snapshots:
       minipass: 7.1.2
       path-scurry: 1.11.1
 
-  glob@10.4.2:
+  glob@10.4.1:
     dependencies:
       foreground-child: 3.1.1
       jackspeak: 3.2.3
       minimatch: 9.0.4
       minipass: 7.1.2
-      package-json-from-dist: 1.0.0
       path-scurry: 1.11.1
 
   glob@7.2.3:
@@ -4469,7 +4474,7 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next@15.0.0-canary.28(@babel/core@7.24.6)(react-dom@19.0.0-rc.0(react@19.0.0-rc.0))(react@19.0.0-rc.0):
+  next@15.0.0-canary.28(@babel/core@7.24.6)(react-dom@19.0.0-rc-6230622a1a-20240610(react@19.0.0-rc-6230622a1a-20240610))(react@19.0.0-rc-6230622a1a-20240610):
     dependencies:
       '@next/env': 15.0.0-canary.28
       '@swc/helpers': 0.5.11
@@ -4477,9 +4482,9 @@ snapshots:
       caniuse-lite: 1.0.30001632
       graceful-fs: 4.2.11
       postcss: 8.4.31
-      react: 19.0.0-rc.0
-      react-dom: 19.0.0-rc.0(react@19.0.0-rc.0)
-      styled-jsx: 5.1.6(@babel/core@7.24.6)(react@19.0.0-rc.0)
+      react: 19.0.0-rc-6230622a1a-20240610
+      react-dom: 19.0.0-rc-6230622a1a-20240610(react@19.0.0-rc-6230622a1a-20240610)
+      styled-jsx: 5.1.6(@babel/core@7.24.6)(react@19.0.0-rc-6230622a1a-20240610)
     optionalDependencies:
       '@next/swc-darwin-arm64': 15.0.0-canary.28
       '@next/swc-darwin-x64': 15.0.0-canary.28
@@ -4604,8 +4609,6 @@ snapshots:
 
   p-try@2.2.0: {}
 
-  package-json-from-dist@1.0.0: {}
-
   parent-module@1.0.1:
     dependencies:
       callsites: 3.1.0
@@ -4728,14 +4731,14 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-dom@19.0.0-rc.0(react@19.0.0-rc.0):
+  react-dom@19.0.0-rc-6230622a1a-20240610(react@19.0.0-rc-6230622a1a-20240610):
     dependencies:
-      react: 19.0.0-rc.0
-      scheduler: 0.25.0-rc.0
+      react: 19.0.0-rc-6230622a1a-20240610
+      scheduler: 0.25.0-rc-6230622a1a-20240610
 
   react-is@16.13.1: {}
 
-  react@19.0.0-rc.0: {}
+  react@19.0.0-rc-6230622a1a-20240610: {}
 
   read-cache@1.0.0:
     dependencies:
@@ -4835,7 +4838,7 @@ snapshots:
       es-errors: 1.3.0
       is-regex: 1.1.4
 
-  scheduler@0.25.0-rc.0: {}
+  scheduler@0.25.0-rc-6230622a1a-20240610: {}
 
   semver@5.7.2: {}
 
@@ -5011,10 +5014,10 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  styled-jsx@5.1.6(@babel/core@7.24.6)(react@19.0.0-rc.0):
+  styled-jsx@5.1.6(@babel/core@7.24.6)(react@19.0.0-rc-6230622a1a-20240610):
     dependencies:
       client-only: 0.0.1
-      react: 19.0.0-rc.0
+      react: 19.0.0-rc-6230622a1a-20240610
     optionalDependencies:
       '@babel/core': 7.24.6
 
@@ -5022,7 +5025,7 @@ snapshots:
     dependencies:
       '@jridgewell/gen-mapping': 0.3.5
       commander: 4.1.1
-      glob: 10.4.2
+      glob: 10.4.1
       lines-and-columns: 1.2.4
       mz: 2.7.0
       pirates: 4.0.6
@@ -5181,6 +5184,10 @@ snapshots:
   uri-js@4.4.1:
     dependencies:
       punycode: 2.3.1
+
+  use-debounce@10.0.1(react@19.0.0-rc-6230622a1a-20240610):
+    dependencies:
+      react: 19.0.0-rc-6230622a1a-20240610
 
   utf-8-validate@6.0.3:
     dependencies:
